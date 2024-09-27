@@ -5,15 +5,15 @@
 
 body {
     font-family: "Inria Sans", sans-serif;
+    color: white;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 15rem auto;
+    grid-template-columns: 16rem auto;
     grid-template-rows: 10rem auto;
     height: 100vh;
 }
-
 
 .dashboard {
     grid-row: span 2;
@@ -23,10 +23,6 @@ body {
     grid-template-rows: repeat(14, 40px);
     color: white;
     padding-top: 1rem;
-}
-
-.intro {
-    background-color: #0c4a6e;
 }
 
 .projects {
@@ -66,4 +62,88 @@ body {
 .dashboard-logo {
     display: flex;
     align-items: center;
+}
+
+a:hover {
+    font-size: 22px;
+    color: #06b6d4;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #0c4a6e;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding-top: 1rem;
+}
+
+.search {
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+
+#search {
+    border-radius: 14px;
+    width: 35rem;
+    border-style: none;
+    outline: none;
+    padding: 6px 10px 6px 10px;
+}
+
+.magni-logo {
+    padding-right: 15px;
+    height: 22px;
+    width: 22px;
+    fill: white;
+}
+
+.bell-logo {
+    height: 22px;
+    width: 22px;
+    fill: white;
+}
+
+.profile-icon {
+    display: flex;
+    padding-right: 100px;
+    justify-content: end;
+}
+
+.rengoku-image {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.intro-container {
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-template-rows: 20px auto;
+}
+
+.intro-mainpic {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.rengoku-image2 {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
 }
