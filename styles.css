@@ -11,13 +11,14 @@ body {
 .container {
     display: grid;
     grid-template-columns: 16rem auto;
-    grid-template-rows: 10rem auto;
+    grid-template-rows: 12rem auto;
     height: 100vh;
 }
 
+
 .dashboard {
     grid-row: span 2;
-    background-color: #082f49;
+    background-color: #563d38;
     display: grid;
     grid-template-columns: 70px auto;
     grid-template-rows: repeat(14, 40px);
@@ -25,8 +26,9 @@ body {
     padding-top: 1rem;
 }
 
+
 .projects {
-    background-color: #bae6fd;
+    background-color: #fdfcfa;
 }
 
 .dashboard-svg {
@@ -66,7 +68,7 @@ body {
 
 a:hover {
     font-size: 22px;
-    color: #06b6d4;
+    color: #ffd966;
 }
 
 a {
@@ -77,29 +79,28 @@ a {
 }
 
 .intro {
-    background-color: #0c4a6e;
+    background-color: #b81f3e;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
-    padding-top: 1rem;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 70px 10px 50px;
 }
 
 .search {
-    display: flex;
-    padding-left: 80px;
+    display: grid;
+    grid-template-columns: 40px auto;
     align-items: center;
 }
 
 #search {
     border-radius: 14px;
-    width: 35rem;
+    width: 90%;
     border-style: none;
     outline: none;
     padding: 6px 10px 6px 10px;
 }
 
 .magni-logo {
-    padding-right: 15px;
     height: 22px;
     width: 22px;
     fill: white;
@@ -113,7 +114,6 @@ a {
 
 .profile-icon {
     display: flex;
-    padding-right: 100px;
     justify-content: end;
 }
 
@@ -129,21 +129,49 @@ a {
     gap: 25px;
 }
 
-.intro-container {
-    display: grid;
-    grid-template-columns: 80px auto;
-    grid-template-rows: 20px auto;
+.introduction {
+    padding-bottom: 10px;
 }
 
-.intro-mainpic {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+.intro-container {
+    display: grid;
+    grid-template-columns: 13% 87%;
+    grid-template-rows: 40% 60%;
 }
 
 .rengoku-image2 {
     border-radius: 50%;
     height: 70px;
     width: 70px;
+}
+
+.intro-mainpic {
+    grid-row: span 2;
+}
+
+.hi-intro {
+    display: flex;
+    align-items: end;
+}
+
+.intro-buttons {
+    display: flex;
+    justify-content: end;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    color: #c33a33;
+    background-color: #fdfcfa;
+    font-weight: bold;
 }
