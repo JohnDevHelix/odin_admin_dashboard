@@ -18,7 +18,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 16rem auto;
+    grid-template-columns: 16rem 1fr;
     grid-template-rows: 12rem 1fr;
     height: 100vh;
 }
@@ -185,13 +185,14 @@ button {
     font-weight: bold;
 }
 
-.project-container {
+.projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40px 1fr 1fr 1fr;
     padding: 30px 20px;
     gap: 10px;
     color: black;
+    border: 2px black solid;
 }
 
 .project {
@@ -291,6 +292,3 @@ p {
 strong {
     color: var(--mahogany-red);
 }
-
-
-@media screen and (min-width: 3082px) {}
