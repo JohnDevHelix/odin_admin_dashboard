@@ -4,178 +4,178 @@
     --medium-yellow: #ffd966;
     --mahogany-red: #c33a33;
     --bone: #E7decc;
-}
-
-* {
+    }
+  
+  * {
     margin: 0;
     padding: 0;
-}
-
-body {
+    }
+  
+  body {
     font-family: "Inria Sans", sans-serif;
     color: white;
-}
-
-.container {
+    }
+  
+  .container {
     display: grid;
-    grid-template-columns: 16rem 1fr;
-    grid-template-rows: 12rem 1fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
     height: 100vh;
-}
-
-
-.dashboard {
+    }
+  
+  
+  .dashboard {
     grid-row: span 2;
     background-color: var(--chestnut);
     display: grid;
-    grid-template-columns: 70px auto;
+    grid-template-columns: .3fr 1fr;
     grid-template-rows: repeat(14, 40px);
     color: white;
-    padding-top: 1rem;
-}
-
-
-.projects {
+    padding: 1rem;
+    }
+  
+  
+  .projects {
     background-color: white;
-}
-
-.dashboard-svg {
+    }
+  
+  .dashboard-svg {
     height: 40px;
     width: 40px;
     fill: white;
-}
-
-.logo {
+    }
+  
+  .logo {
     height: 20px;
     width: 20px;
     fill: white;
-}
-
-.dash-logo {
+    }
+  
+  .dash-logo {
     display: flex;
     justify-content: center;
     align-items: end;
-}
-
-.dash-text {
+    }
+  
+  .dash-text {
     display: flex;
     align-items: end;
-    font-size: 13px;
-}
-
-.dashboard-text {
+    }
+  
+  .dashboard-text {
     font-size: 15px;
     display: flex;
     align-items: center;
-}
-
-.dashboard-logo {
+    }
+  
+  .dashboard-logo {
     display: flex;
     align-items: center;
-}
-
-a:hover {
+    }
+  
+  a:hover {
     font-size: 22px;
     color: var(--medium-yellow);
-}
-
-a {
+    }
+  
+  a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: bold;
-}
-
-.intro {
+    }
+  
+  .intro {
     background-color: var(--maroon);
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 0px 70px 10px 50px;
-}
-
-.search {
+    box-shadow: 0px 5px 4px -1px red;
+    }
+  
+  .search {
     display: grid;
     grid-template-columns: 40px auto;
     align-items: center;
-}
-
-#search {
+    }
+  
+  #search {
     border-radius: 14px;
     width: 80%;
     border-style: none;
     outline: none;
     padding: 6px 10px 6px 10px;
-}
-
-.magni-logo {
+    }
+  
+  .magni-logo {
     height: 22px;
     width: 22px;
     fill: white;
-}
-
-.bell-logo {
+    }
+  
+  .bell-logo {
     height: 22px;
     width: 22px;
     fill: white;
-}
-
-.profile-icon {
+    }
+  
+  .profile-icon {
     display: flex;
     justify-content: end;
-}
-
-.rengoku-image {
+    }
+  
+  .rengoku-image {
     border-radius: 50%;
     height: 40px;
     width: 40px;
-}
-
-.profile-container {
+    }
+  
+  .profile-container {
     display: flex;
     align-items: center;
     gap: 25px;
-}
-
-.introduction {
+    }
+  
+  .introduction {
     padding-bottom: 10px;
-}
-
-.intro-container {
+    }
+  
+  .intro-container {
     display: grid;
     grid-template-columns: 100px 87%;
     grid-template-rows: 40% 60%;
-}
-
-.rengoku-image2 {
+    }
+  
+  .rengoku-image2 {
     border-radius: 50%;
     height: 70px;
     width: 70px;
-}
-
-.intro-mainpic {
+    }
+  
+  .intro-mainpic {
     grid-row: span 2;
-}
-
-.hi-intro {
+    }
+  
+  .hi-intro {
     display: flex;
     align-items: end;
-}
-
-.intro-buttons {
+    }
+  
+  .intro-buttons {
     display: flex;
     justify-content: end;
-}
-
-.buttons-container {
+    }
+  
+  .buttons-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 350px;
     padding-bottom: 20px;
-}
-
-button {
+    }
+  
+  button {
     padding: 10px 25px;
     width: 100px;
     border-radius: 20px;
@@ -183,112 +183,113 @@ button {
     color: var(--mahogany-red);
     background-color: white;
     font-weight: bold;
-}
-
-.projects {
+    }
+  
+  .project-container {
     display: grid;
+    height: 90%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40px 1fr 1fr 1fr;
+    grid-template-rows: .1fr 1fr 1fr 1fr;
     padding: 30px 20px;
     gap: 10px;
     color: black;
-    border: 2px black solid;
-}
-
-.project {
+    }
+  
+  .project {
     background-color: var(--bone);
     border-left: 10px red solid;
     border-radius: 10px;
     padding: 20px 20px;
     margin: 0px 10px 10px 0px;
-}
-
-.others-container {
+    box-shadow: 0px 5px 4px -2px red;
+    }
+  
+  .others-container {
     grid-row: 2 / 5;
     grid-column: 3 / 4;
-}
-
-p {
+    }
+  
+  p {
     font-size: 14px;
-}
-
-.icons {
+    }
+  
+  .icons {
     height: 20px;
     width: 20px;
-}
-
-.icon-buttons {
+    }
+  
+  .icon-buttons {
     display: flex;
     justify-content: end;
     gap: 25px;
-}
-
-.p-container {
+    }
+  
+  .p-container {
     height: 100%;
     display: grid;
     grid-template-rows: 15% 70% 15%;
-}
-
-.projects h3 {
+    }
+  
+  .projects h3 {
     color: crimson;
-}
-
-.technique {
+    }
+  
+  .technique {
     display: grid;
     grid-template-rows: 2fr 40px .5fr;
     gap: 10px;
-}
-
-.technique-grid {
+    }
+  
+  .technique-grid {
     background-color: var(--bone);
     border-radius: 10px;
     margin-bottom: 10px;
-}
-
-.equipment-text {
+    box-shadow: 0px 5px 4px -1px red;
+    }
+  
+  .equipment-text {
     align-self: end;
     padding-top: 20px;
-}
-
-.announcements-text,
-.projects-text {
+    }
+  
+  .announcements-text, .projects-text {
     align-self: end;
-}
-
-.techniques {
+    }
+  
+  .techniques {
     padding: 20px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.techniques p {
+    }
+  
+  .techniques p {
     font-size: 13px;
     padding-bottom: 7px;
-}
-
-.techniques h4 {
+    }
+  
+  .techniques h4 {
     padding-top: 7px;
-}
-
-.weapon {
+    }
+  
+  .weapon {
     height: 70px;
     width: 70px;
     border-radius: 50%;
     padding-right: 10px;
-}
-
-.equipment {
+    }
+  
+  .equipment {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 20px;
-}
-
-.equipment p {
+    }
+  
+  .equipment p {
     font-size: 13px;
-}
-
-strong {
+    }
+  
+  strong {
     color: var(--mahogany-red);
-}
+    }
